@@ -52,9 +52,8 @@ def decode_word(stringWord)
 end
 
 def decode(string)
-  string = string.split("   ")
   sentence = ""
-  string.each do |word|
+  string.split("   ").each do |word|
     sentence += decode_word(word) + " "
   end
   return sentence
