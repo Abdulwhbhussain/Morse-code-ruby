@@ -60,5 +60,5 @@ def decode(string)
   return sentence
 end
 
-puts decode(".... . .-.. .-.. ---   .-- --- .-. .-.. -..")
-puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+puts decode(".... . .-.. .-.. ---   .-- --- .-. .-.. -..") # HELLO WORLD
+puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...") # A BOXFUL OF RUBIES
