@@ -59,5 +59,5 @@ def decode(string)
   return sentence
 end
 
-puts decode(".... . .-.. .-.. ---   .-- --- .-. .-.. -..")
-puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+puts decode(".... . .-.. .-.. ---   .-- --- .-. .-.. -..") # Hello World
+puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...") # A Box Full Of Rubies
