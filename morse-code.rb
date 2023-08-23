@@ -42,3 +42,11 @@ def decode_char(stringChar)
   }
   return morse_code[stringChar]
 end
+
+def decode_word(stringWord)
+  word = ""
+  stringWord.split(" ").each do |char|
+    word += decode_char(char)
+  end
+  return word
+end
